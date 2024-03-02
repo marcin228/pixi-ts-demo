@@ -6,14 +6,4 @@ document.body.appendChild(app.view);
 app.stage.sortableChildren = true;
 
 const game:Game = new Game(app);
-
-
-/*
-function mainLoop(){
-
-    slotDemo.loop();    
-    requestAnimationFrame(mainLoop);
-}
-
-requestAnimationFrame(mainLoop);
-*/
+console.log(game);

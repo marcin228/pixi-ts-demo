@@ -1,11 +1,5 @@
-import { Container, Graphics, Sprite, SpriteSource } from "pixi.js";
+import { Container, Graphics, Sprite } from "pixi.js";
 import Game from "./Game";
-
-type TilesModel = {
-
-    tilesNum:Number;
-    tilesImages:any;
-}
 
 const enum SlotMode {
     ACCELERATING = 0,
@@ -34,7 +28,7 @@ export default class Slot{
     private delta:number;
     private prev:number;
 
-    constructor(width:number, height:number, x:number, tiles:TilesModel){
+    constructor(width:number, height:number, x:number){
 
         this.mode = SlotMode.STOPPED;
         this.current = 1;
