@@ -20,7 +20,7 @@ export default class Preload{
 
         try{
             for(let val of this.assetsNames)
-                this._assets[val] = await Assets.load<any>('../dist/slots/' + val);
+                this._assets[val] = await Assets.load<any>('slots/' + val);
         }catch(e){
             throw new Error('no such asset to load.')
         }
