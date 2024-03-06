@@ -42,7 +42,7 @@ export default class Game{
             this.slot8 = new Slot(240, 400, 1680);
 
             let style = new TextStyle({ fontFamily: ['Arial', 'sans-serif'], align: 'left', fontSize: 14 , fontWeight: '900', fill: 0xf0c57d});
-            let message = new Text('TS + pixi.js\r\n\r\nShort demo of a reusable slot component. Click the slot to start and stop the spin.\r\nTimes, speeds, icons, easings and sizes are all adjustable.\r\nResult of a spin is fetched from API.', style);
+            let message = new Text('TS + pixi.js\r\n\r\nShort demo of a reusable slot component. Click the slot to start and stop the spin.\r\nTimes, speeds, icons, easings and sizes are all adjustable.\r\nResult of a spin is fetched from an API.', style);
             message.x = 40;
             message.y = 440;
             Game.app.stage.addChild(message);
