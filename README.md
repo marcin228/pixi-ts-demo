@@ -1,6 +1,6 @@
 # Introduction
 Hello, my name is Marcin and I have prepared two short demos using JS/TS and a PIXI.js library.  
-I would appreciate it could take a look at them as well as my [LeetCode](https://leetcode.com/marcin228) account that I have been actively working on to demonstrate my dedication and passion for problem-solving.
+I would appreciate it if you could take a look at them as well as my [LeetCode](https://leetcode.com/marcin228) account that I have been actively working on to demonstrate my dedication and passion for problem-solving.
 
 # About me
 I have an experience with creating small 2D games, interactive quizes, product configurators and interactive animations for e-learning platforms with ECMAScript based languages (AS2 -> AS3 -> JS).  
